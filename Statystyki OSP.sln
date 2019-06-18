@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statystyki OSP", "Statystyki OSP\Statystyki OSP.csproj", "{3F93C01E-055D-4CDA-9EF6-849934D382D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statystyki_OSP_Tests", "Statystyki_OSP_Tests\Statystyki_OSP_Tests.csproj", "{6D91AD48-8103-42A7-912A-7641F7C40B1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F93C01E-055D-4CDA-9EF6-849934D382D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F93C01E-055D-4CDA-9EF6-849934D382D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F93C01E-055D-4CDA-9EF6-849934D382D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F93C01E-055D-4CDA-9EF6-849934D382D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D91AD48-8103-42A7-912A-7641F7C40B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D91AD48-8103-42A7-912A-7641F7C40B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D91AD48-8103-42A7-912A-7641F7C40B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D91AD48-8103-42A7-912A-7641F7C40B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D809FF4-9566-4830-8AD2-746741A9607A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Statystyki_OSP_Tests.dll.config
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Statystyki_OSP_Tests.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Statystyki_OSP_Tests.pdb
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\EntityFramework.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\EntityFramework.SqlServer.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Statystyki OSP.exe
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Statystyki OSP.pdb
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Statystyki OSP.exe.config
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\EntityFramework.xml
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\EntityFramework.SqlServer.xml
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\obj\Debug\Statystyki_OSP_Tests.csprojAssemblyReference.cache
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\obj\Debug\Statystyki_OSP_Tests.csproj.CoreCompileInputs.cache
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\obj\Debug\Statystyki_OSP_Tests.csproj.CopyComplete
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\obj\Debug\Statystyki_OSP_Tests.dll
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\obj\Debug\Statystyki_OSP_Tests.pdb
