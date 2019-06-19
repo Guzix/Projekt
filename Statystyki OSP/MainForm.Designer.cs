@@ -67,7 +67,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.MdiWindowListItem = this.formularzeToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1627, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1563, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -83,7 +83,7 @@
             // zamknijProgramToolStripMenuItem
             // 
             this.zamknijProgramToolStripMenuItem.Name = "zamknijProgramToolStripMenuItem";
-            this.zamknijProgramToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.zamknijProgramToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.zamknijProgramToolStripMenuItem.Text = "Zamknij program";
             this.zamknijProgramToolStripMenuItem.Click += new System.EventHandler(this.zamknijProgramToolStripMenuItem_Click);
             // 
@@ -100,21 +100,21 @@
             // dodajStrażakaToolStripMenuItem
             // 
             this.dodajStrażakaToolStripMenuItem.Name = "dodajStrażakaToolStripMenuItem";
-            this.dodajStrażakaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dodajStrażakaToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.dodajStrażakaToolStripMenuItem.Text = "Dodaj strażaka";
             this.dodajStrażakaToolStripMenuItem.Click += new System.EventHandler(this.dodajStrażakaToolStripMenuItem_Click);
             // 
             // dodajPojazdToolStripMenuItem
             // 
             this.dodajPojazdToolStripMenuItem.Name = "dodajPojazdToolStripMenuItem";
-            this.dodajPojazdToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dodajPojazdToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.dodajPojazdToolStripMenuItem.Text = "Dodaj pojazd";
             this.dodajPojazdToolStripMenuItem.Click += new System.EventHandler(this.dodajPojazdToolStripMenuItem_Click);
             // 
             // dodajWyjazdToolStripMenuItem
             // 
             this.dodajWyjazdToolStripMenuItem.Name = "dodajWyjazdToolStripMenuItem";
-            this.dodajWyjazdToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dodajWyjazdToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.dodajWyjazdToolStripMenuItem.Text = "Dodaj wyjazd";
             this.dodajWyjazdToolStripMenuItem.Click += new System.EventHandler(this.dodajWyjazdToolStripMenuItem_Click);
             // 
@@ -131,21 +131,21 @@
             // listaStrażakówToolStripMenuItem
             // 
             this.listaStrażakówToolStripMenuItem.Name = "listaStrażakówToolStripMenuItem";
-            this.listaStrażakówToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listaStrażakówToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.listaStrażakówToolStripMenuItem.Text = "Lista strażaków";
             this.listaStrażakówToolStripMenuItem.Click += new System.EventHandler(this.listaStrażakówToolStripMenuItem_Click);
             // 
             // listaPojazdówToolStripMenuItem
             // 
             this.listaPojazdówToolStripMenuItem.Name = "listaPojazdówToolStripMenuItem";
-            this.listaPojazdówToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listaPojazdówToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.listaPojazdówToolStripMenuItem.Text = "Lista pojazdów";
             this.listaPojazdówToolStripMenuItem.Click += new System.EventHandler(this.listaPojazdówToolStripMenuItem_Click);
             // 
             // listaWyjazdówToolStripMenuItem
             // 
             this.listaWyjazdówToolStripMenuItem.Name = "listaWyjazdówToolStripMenuItem";
-            this.listaWyjazdówToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listaWyjazdówToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.listaWyjazdówToolStripMenuItem.Text = "Lista wyjazdów";
             this.listaWyjazdówToolStripMenuItem.Click += new System.EventHandler(this.listaWyjazdówToolStripMenuItem_Click);
             // 
@@ -190,9 +190,9 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 842);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 681);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1627, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1563, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -210,7 +210,7 @@
             this.toolStripButton3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1627, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1563, 25);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -245,7 +245,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1627, 864);
+            this.ClientSize = new System.Drawing.Size(1563, 703);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
