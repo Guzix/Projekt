@@ -12,9 +12,16 @@ using System.Windows.Forms;
 
 namespace Statystyki_OSP
 {
+    /// <summary>
+    /// VehicleForm
+    /// </summary>
     public partial class VehicleFrom : Form
     {
         private Vehicle data = new Vehicle();
+        /// <summary>
+        /// VehicleForm
+        /// </summary>
+        /// <remarks>konstruktor formularza</remarks>
         public VehicleFrom()
         {
             
@@ -22,8 +29,12 @@ namespace Statystyki_OSP
             this.vehicleBindingSource.DataSource = data;
         }
 
-      
 
+        /// <summary>
+        /// VehicleForm
+        /// </summary>
+        /// <param name="vehicleData">zmienna typu Vehicle</param>
+        /// <remarks>przeciazony konstruktor formularza</remarks>
         public VehicleFrom(Vehicle vehicleData)
         {
             this.data = vehicleData;

@@ -23,3 +23,4 @@ E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Test
 E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\obj\Debug\Statystyki_OSP_Tests.csproj.CopyComplete
 E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\obj\Debug\Statystyki_OSP_Tests.dll
 E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\obj\Debug\Statystyki_OSP_Tests.pdb
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki_OSP_Tests\bin\Debug\Statystyki OSP.xml

@@ -19,3 +19,4 @@ E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki OSP\bin\
 E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki OSP\bin\Debug\EntityFramework.SqlServer.xml
 E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki OSP\obj\Debug\Statystyki OSP.csproj.CopyComplete
 E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki OSP\obj\Debug\Statystyki_OSP.AccidentListForm.resources
+E:\WSIiZ-UITM\semestr 4\Programowanie\Projekt\Statystyki OSP\Statystyki OSP\bin\Debug\Statystyki OSP.xml

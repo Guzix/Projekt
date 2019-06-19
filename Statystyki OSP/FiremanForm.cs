@@ -12,16 +12,27 @@ using System.Windows.Forms;
 
 namespace Statystyki_OSP
 {
+    /// <summary>
+    /// FiremanForm
+    /// </summary>
     public partial class FiremanForm : Form
     {
         private Fireman data= new Fireman();
+        /// <summary>
+        /// FiremanForm
+        /// </summary>
+        /// <remarks>kontruktor klasy</remarks>
         public FiremanForm()
         {
             
             InitializeComponent();
             this.firemanBindingSource.DataSource = data;
         }
-
+        /// <summary>
+        /// FiremanForm
+        /// </summary>
+        /// <param name="firemanData">zmienna typu Fireman</param>
+        /// <remarks>przeciazony konstruktor klasy</remarks>
         public FiremanForm(Fireman firemanData)
         {
             this.data = firemanData;

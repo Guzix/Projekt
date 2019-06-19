@@ -12,8 +12,14 @@ using System.Windows.Forms;
 
 namespace Statystyki_OSP
 {
+    /// <summary>
+    /// VehicleListForm
+    /// </summary>
     public partial class VehicleListForm : Form
     {
+        /// <summary>
+        /// VehicelListForm
+        /// </summary>
         public VehicleListForm()
         {
             InitializeComponent();

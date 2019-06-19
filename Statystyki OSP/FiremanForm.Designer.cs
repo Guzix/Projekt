@@ -1,5 +1,8 @@
 ﻿namespace Statystyki_OSP
 {
+    /// <summary>
+    /// FiremanForm
+    /// </summary>
     partial class FiremanForm
     {
         /// <summary>

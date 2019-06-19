@@ -12,8 +12,17 @@ using System.Windows.Forms;
 
 namespace Statystyki_OSP
 {
+    /// <summary>
+    /// AccidentListForm
+    /// </summary>
     public partial class AccidentListForm : Form
     {
+        /// <summary>
+        /// AccidentListForm
+        /// </summary>
+        /// <remarks>
+        /// Konstruktor
+        /// </remarks>
         public AccidentListForm()
         {
             InitializeComponent();

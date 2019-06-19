@@ -12,8 +12,15 @@ using System.Windows.Forms;
 
 namespace Statystyki_OSP
 {
+    /// <summary>
+    /// FiremanListForm
+    /// </summary>
     public partial class FiremanListForm : Form
     {
+        /// <summary>
+        /// FiremanListForm
+        /// </summary>
+        /// <remarks>Konstruktor klasy</remarks>
         public FiremanListForm()
         {
             InitializeComponent();

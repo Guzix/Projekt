@@ -7,27 +7,63 @@ using System.Threading.Tasks;
 
 namespace Statystyki_OSP.DataAccess
 {
+    /// <summary>
+    /// DataContext
+    /// </summary>
     public class DataContext
     {
         static StoreContext context = new StoreContext();
+        /// <summary>
+        /// Contect
+        /// </summary>
+        /// <remarks>
+        /// metoda typu StoreContext zwracajaca context
+        /// </remarks>
         public static StoreContext Context
         {
             get { return context; }
         }
+        /// <summary>
+        /// GetFiremanList
+        /// </summary>
+        /// <returns>List</returns>
+        /// <remarks>
+        /// Metoda zwraca listę strazakow zapisanych w bazie danych
+        /// </remarks>
         public static List<Fireman> GetFiremanList()
         {
             return context.Firemans.ToList();
         }
- 
+        /// <summary>
+        /// GetVehicleList
+        /// </summary>
+        /// <returns>List</returns>
+        /// <remarks>
+        /// Metoda zwraca listę pojazdow zapisanych w bazie danych
+        /// </remarks>
         public static List<Vehicle> GetVehiclesList()
         {
             return context.Vehicles.ToList();
         }
+        /// <summary>
+        /// GetAccidentList
+        /// </summary>
+        /// <returns>List</returns>
+        /// <remarks>
+        /// Metoda zwraca listę wyjazdow zapisanych w bazie danych
+        /// </remarks>
         public static List<Accident> GetAccidentsList()
         {
             return context.Accidents.ToList();
         }
-
+        /// <summary>
+        /// AddOrEditFiremans
+        /// </summary>
+        /// <param name="value">strazak</param>
+        /// <returns>wartosc true</returns>
+        /// <remarks>
+        /// Metoda dodaje nowego lub edytuje juz istniejacego strazaka
+        /// </remarks>
         public static bool AddOrEditFiremans(Fireman value)
         {
             if (value.FiremanId == 0)
@@ -52,6 +88,14 @@ namespace Statystyki_OSP.DataAccess
             context.SaveChanges();
             return true;
         }
+        /// <summary>
+        /// AddOrEditVehicles
+        /// </summary>
+        /// <param name="value">Pojazd</param>
+        /// <returns>wartosc true</returns>
+        /// <remarks>
+        /// Metoda dodaje nowy lub edytuje juz istniejacy pojazd
+        /// </remarks>
         public static bool AddOrEditVehicles(Vehicle value)
         {
             if (value.VehicleId == 0)
@@ -74,7 +118,14 @@ namespace Statystyki_OSP.DataAccess
             return true;
         }
 
-       
+        /// <summary>
+        /// AddOrEditAccidents
+        /// </summary>
+        /// <param name="value">wyjazd</param>
+        /// <returns>wartosc true</returns>
+        /// <remarks>
+        /// Metoda dodaje nowy lub edytuje juz istniejacy wyjazd
+        /// </remarks>
         public static bool AddOrEditAccidents( Accident value)
         {
             if(value.AccidentId == 0)

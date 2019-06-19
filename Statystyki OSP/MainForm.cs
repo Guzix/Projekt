@@ -12,6 +12,10 @@ namespace Statystyki_OSP
 {
     public partial class MenuGlowne : Form
     {
+        /// <summary>
+        /// MenuGlowne
+        /// </summary>
+        /// <remarks>Konstruktor glownego formularza</remarks>
         public MenuGlowne()
         {
             InitializeComponent();
