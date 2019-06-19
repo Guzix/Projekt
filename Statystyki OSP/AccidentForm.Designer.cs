@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccidentForm));
             this.buttonZapisz = new System.Windows.Forms.Button();
             this.buttonZamknij = new System.Windows.Forms.Button();
             this.comboBoxPojazd = new System.Windows.Forms.ComboBox();
@@ -388,8 +389,9 @@
             this.Controls.Add(this.comboBoxPojazd);
             this.Controls.Add(this.buttonZamknij);
             this.Controls.Add(this.buttonZapisz);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AccidentForm";
-            this.Text = "TestAccident";
+            this.Text = "Dodawanie wyjazdu";
             this.Load += new System.EventHandler(this.TestAccident_Load);
             ((System.ComponentModel.ISupportInitialize)(this.vehicleBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource)).EndInit();

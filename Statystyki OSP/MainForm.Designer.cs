@@ -1,5 +1,8 @@
 ﻿namespace Statystyki_OSP
 {
+    /// <summary>
+    /// MenuGlowne
+    /// </summary>
     partial class MenuGlowne
     {
         /// <summary>

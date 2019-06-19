@@ -57,7 +57,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(2, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(800, 393);
+            this.dataGridView1.Size = new System.Drawing.Size(402, 393);
             this.dataGridView1.TabIndex = 0;
             // 
             // markaDataGridViewTextBoxColumn
@@ -119,7 +119,7 @@
             // 
             // buttonZamknij
             // 
-            this.buttonZamknij.Location = new System.Drawing.Point(697, 399);
+            this.buttonZamknij.Location = new System.Drawing.Point(303, 399);
             this.buttonZamknij.Name = "buttonZamknij";
             this.buttonZamknij.Size = new System.Drawing.Size(91, 39);
             this.buttonZamknij.TabIndex = 4;
@@ -131,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(405, 448);
             this.Controls.Add(this.buttonZamknij);
             this.Controls.Add(this.buttonOdswiez);
             this.Controls.Add(this.buttonEdytuj);
