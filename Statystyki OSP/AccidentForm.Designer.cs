@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccidentForm));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.accidentBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.comboBoxPojazd = new System.Windows.Forms.ComboBox();
@@ -41,7 +42,6 @@
             this.buttonZamknij = new System.Windows.Forms.Button();
             this.comboBoxDowodca = new System.Windows.Forms.ComboBox();
             this.firemanBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.firemanBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -52,27 +52,14 @@
             this.label11 = new System.Windows.Forms.Label();
             this.comboBoxKierowca = new System.Windows.Forms.ComboBox();
             this.comboBoxIRota = new System.Windows.Forms.ComboBox();
-            this.firemanBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.comboBoxIRotaPomoc = new System.Windows.Forms.ComboBox();
-            this.firemanBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.comboBoxIIRota = new System.Windows.Forms.ComboBox();
-            this.firemanBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
             this.comboBoxIIRotaPomoc = new System.Windows.Forms.ComboBox();
-            this.firemanBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
             this.comboBoxIIIRota = new System.Windows.Forms.ComboBox();
-            this.firemanBindingSource6 = new System.Windows.Forms.BindingSource(this.components);
             this.comboBoxIIIRotaPomoc = new System.Windows.Forms.ComboBox();
-            this.firemanBindingSource7 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.accidentBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vehicleBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource7)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -100,7 +87,7 @@
             this.comboBoxPojazd.Size = new System.Drawing.Size(121, 21);
             this.comboBoxPojazd.TabIndex = 4;
             this.comboBoxPojazd.ValueMember = "VehicleId";
-            this.comboBoxPojazd.SelectedIndexChanged += new System.EventHandler(this.comboBoxPojazd_SelectedIndexChanged);
+            
             // 
             // vehicleBindingSource
             // 
@@ -178,10 +165,6 @@
             // 
             this.firemanBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
             // 
-            // firemanBindingSource1
-            // 
-            this.firemanBindingSource1.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -214,9 +197,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(12, 333);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 26;
-            this.label7.Text = "IIIrota";
+            this.label7.Text = "III rota ";
             // 
             // label8
             // 
@@ -280,10 +263,6 @@
             this.comboBoxIRota.TabIndex = 32;
             this.comboBoxIRota.ValueMember = "FiremanId";
             // 
-            // firemanBindingSource2
-            // 
-            this.firemanBindingSource2.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
-            // 
             // comboBoxIRotaPomoc
             // 
             this.comboBoxIRotaPomoc.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vehicleBindingSource, "Marka", true));
@@ -296,10 +275,6 @@
             this.comboBoxIRotaPomoc.Size = new System.Drawing.Size(121, 21);
             this.comboBoxIRotaPomoc.TabIndex = 33;
             this.comboBoxIRotaPomoc.ValueMember = "FiremanId";
-            // 
-            // firemanBindingSource3
-            // 
-            this.firemanBindingSource3.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
             // 
             // comboBoxIIRota
             // 
@@ -314,10 +289,6 @@
             this.comboBoxIIRota.TabIndex = 34;
             this.comboBoxIIRota.ValueMember = "FiremanId";
             // 
-            // firemanBindingSource4
-            // 
-            this.firemanBindingSource4.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
-            // 
             // comboBoxIIRotaPomoc
             // 
             this.comboBoxIIRotaPomoc.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vehicleBindingSource, "Marka", true));
@@ -330,10 +301,6 @@
             this.comboBoxIIRotaPomoc.Size = new System.Drawing.Size(121, 21);
             this.comboBoxIIRotaPomoc.TabIndex = 35;
             this.comboBoxIIRotaPomoc.ValueMember = "FiremanId";
-            // 
-            // firemanBindingSource5
-            // 
-            this.firemanBindingSource5.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
             // 
             // comboBoxIIIRota
             // 
@@ -348,10 +315,6 @@
             this.comboBoxIIIRota.TabIndex = 36;
             this.comboBoxIIIRota.ValueMember = "FiremanId";
             // 
-            // firemanBindingSource6
-            // 
-            this.firemanBindingSource6.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
-            // 
             // comboBoxIIIRotaPomoc
             // 
             this.comboBoxIIIRotaPomoc.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vehicleBindingSource, "Marka", true));
@@ -364,10 +327,6 @@
             this.comboBoxIIIRotaPomoc.Size = new System.Drawing.Size(121, 21);
             this.comboBoxIIIRotaPomoc.TabIndex = 37;
             this.comboBoxIIIRotaPomoc.ValueMember = "FiremanId";
-            // 
-            // firemanBindingSource7
-            // 
-            this.firemanBindingSource7.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
             // 
             // AccidentForm
             // 
@@ -398,19 +357,13 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBoxPojazd);
             this.Controls.Add(this.textBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AccidentForm";
             this.Text = "AccidentForm";
             this.Load += new System.EventHandler(this.AccidentForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.accidentBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vehicleBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -444,12 +397,5 @@
         private System.Windows.Forms.ComboBox comboBoxIIRotaPomoc;
         private System.Windows.Forms.ComboBox comboBoxIIIRota;
         private System.Windows.Forms.ComboBox comboBoxIIIRotaPomoc;
-        private System.Windows.Forms.BindingSource firemanBindingSource1;
-        private System.Windows.Forms.BindingSource firemanBindingSource2;
-        private System.Windows.Forms.BindingSource firemanBindingSource3;
-        private System.Windows.Forms.BindingSource firemanBindingSource4;
-        private System.Windows.Forms.BindingSource firemanBindingSource5;
-        private System.Windows.Forms.BindingSource firemanBindingSource6;
-        private System.Windows.Forms.BindingSource firemanBindingSource7;
     }
 }

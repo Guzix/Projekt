@@ -41,6 +41,21 @@ namespace Statystyki_OSP_Tests
             Assert.AreEqual(DataContext.GetVehiclesList()[1], v2);
             Assert.AreEqual(DataContext.GetVehiclesList()[0].IloscMiejsc,4);
             Assert.AreEqual(DataContext.GetVehiclesList()[1].IloscMiejsc,1);
+        } 
+
+        public void SaveAccident()
+        {
+            Accident a1 = new Accident { Opis = "przyklad", DataWyjazdu = DateTime.Today };
+            Accident a2 = new Accident { Opis = "test", DataWyjazdu = DateTime.Today.AddDays(10) };
+
+            DataContext.AddOrEditAccidents(a1);
+            DataContext.AddOrEditAccidents(a2);
+
+            Assert.AreEqual(DataContext.GetAccidentsList().Count(), 2);
+            Assert.AreEqual(DataContext.GetAccidentsList()[0], a1);
+            Assert.AreEqual(DataContext.GetAccidentsList()[1],a2);
+            Assert.AreEqual(DataContext.GetAccidentsList()[0].Opis, "przyklad");
+            Assert.AreEqual(DataContext.GetAccidentsList()[1].Opis, "test");
         }
     }
 }

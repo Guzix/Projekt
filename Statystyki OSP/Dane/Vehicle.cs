@@ -8,10 +8,11 @@ using System.Threading.Tasks;
 
 namespace Statystyki_OSP.Dane
 {
+    
     [Table("Pojazdy")]
     public class Vehicle
     {
-        int vehicleId = 0;
+        int vehicleId = 0; 
         string marka = "";
         string model = "";
         int iloscMiejsc = 0;

@@ -29,13 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccidentListForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.buttonZamknij = new System.Windows.Forms.Button();
-            this.buttonOdswiez = new System.Windows.Forms.Button();
-            this.buttonEdytuj = new System.Windows.Forms.Button();
-            this.buttonDodaj = new System.Windows.Forms.Button();
-            this.accidentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.accidentBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.opisDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataWyjazduDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vehicleModelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,6 +42,12 @@
             this.firemanNameIIRotaPomocDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firemanNameIIIRotaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firemanNameIIIRotaPomocDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.accidentBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.buttonZamknij = new System.Windows.Forms.Button();
+            this.buttonOdswiez = new System.Windows.Forms.Button();
+            this.buttonEdytuj = new System.Windows.Forms.Button();
+            this.buttonDodaj = new System.Windows.Forms.Button();
+            this.accidentBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accidentBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accidentBindingSource1)).BeginInit();
@@ -76,54 +77,6 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(1139, 382);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // buttonZamknij
-            // 
-            this.buttonZamknij.Location = new System.Drawing.Point(954, 404);
-            this.buttonZamknij.Name = "buttonZamknij";
-            this.buttonZamknij.Size = new System.Drawing.Size(91, 39);
-            this.buttonZamknij.TabIndex = 8;
-            this.buttonZamknij.Text = "Zamknij";
-            this.buttonZamknij.UseVisualStyleBackColor = true;
-            this.buttonZamknij.Click += new System.EventHandler(this.buttonZamknij_Click);
-            // 
-            // buttonOdswiez
-            // 
-            this.buttonOdswiez.Location = new System.Drawing.Point(206, 404);
-            this.buttonOdswiez.Name = "buttonOdswiez";
-            this.buttonOdswiez.Size = new System.Drawing.Size(91, 39);
-            this.buttonOdswiez.TabIndex = 7;
-            this.buttonOdswiez.Text = "Odśwież";
-            this.buttonOdswiez.UseVisualStyleBackColor = true;
-            this.buttonOdswiez.Click += new System.EventHandler(this.buttonOdswiez_Click);
-            // 
-            // buttonEdytuj
-            // 
-            this.buttonEdytuj.Location = new System.Drawing.Point(109, 404);
-            this.buttonEdytuj.Name = "buttonEdytuj";
-            this.buttonEdytuj.Size = new System.Drawing.Size(91, 39);
-            this.buttonEdytuj.TabIndex = 6;
-            this.buttonEdytuj.Text = "Edytuj";
-            this.buttonEdytuj.UseVisualStyleBackColor = true;
-            this.buttonEdytuj.Click += new System.EventHandler(this.buttonEdytuj_Click);
-            // 
-            // buttonDodaj
-            // 
-            this.buttonDodaj.Location = new System.Drawing.Point(12, 404);
-            this.buttonDodaj.Name = "buttonDodaj";
-            this.buttonDodaj.Size = new System.Drawing.Size(91, 39);
-            this.buttonDodaj.TabIndex = 5;
-            this.buttonDodaj.Text = "Dodaj";
-            this.buttonDodaj.UseVisualStyleBackColor = true;
-            this.buttonDodaj.Click += new System.EventHandler(this.buttonDodaj_Click);
-            // 
-            // accidentBindingSource
-            // 
-            this.accidentBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Accident);
-            // 
-            // accidentBindingSource1
-            // 
-            this.accidentBindingSource1.DataSource = typeof(Statystyki_OSP.Dane.Accident);
             // 
             // opisDataGridViewTextBoxColumn
             // 
@@ -202,6 +155,54 @@
             this.firemanNameIIIRotaPomocDataGridViewTextBoxColumn.Name = "firemanNameIIIRotaPomocDataGridViewTextBoxColumn";
             this.firemanNameIIIRotaPomocDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // accidentBindingSource
+            // 
+            this.accidentBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Accident);
+            // 
+            // buttonZamknij
+            // 
+            this.buttonZamknij.Location = new System.Drawing.Point(954, 404);
+            this.buttonZamknij.Name = "buttonZamknij";
+            this.buttonZamknij.Size = new System.Drawing.Size(91, 39);
+            this.buttonZamknij.TabIndex = 8;
+            this.buttonZamknij.Text = "Zamknij";
+            this.buttonZamknij.UseVisualStyleBackColor = true;
+            this.buttonZamknij.Click += new System.EventHandler(this.buttonZamknij_Click);
+            // 
+            // buttonOdswiez
+            // 
+            this.buttonOdswiez.Location = new System.Drawing.Point(206, 404);
+            this.buttonOdswiez.Name = "buttonOdswiez";
+            this.buttonOdswiez.Size = new System.Drawing.Size(91, 39);
+            this.buttonOdswiez.TabIndex = 7;
+            this.buttonOdswiez.Text = "Odśwież";
+            this.buttonOdswiez.UseVisualStyleBackColor = true;
+            this.buttonOdswiez.Click += new System.EventHandler(this.buttonOdswiez_Click);
+            // 
+            // buttonEdytuj
+            // 
+            this.buttonEdytuj.Location = new System.Drawing.Point(109, 404);
+            this.buttonEdytuj.Name = "buttonEdytuj";
+            this.buttonEdytuj.Size = new System.Drawing.Size(91, 39);
+            this.buttonEdytuj.TabIndex = 6;
+            this.buttonEdytuj.Text = "Edytuj";
+            this.buttonEdytuj.UseVisualStyleBackColor = true;
+            this.buttonEdytuj.Click += new System.EventHandler(this.buttonEdytuj_Click);
+            // 
+            // buttonDodaj
+            // 
+            this.buttonDodaj.Location = new System.Drawing.Point(12, 404);
+            this.buttonDodaj.Name = "buttonDodaj";
+            this.buttonDodaj.Size = new System.Drawing.Size(91, 39);
+            this.buttonDodaj.TabIndex = 5;
+            this.buttonDodaj.Text = "Dodaj";
+            this.buttonDodaj.UseVisualStyleBackColor = true;
+            this.buttonDodaj.Click += new System.EventHandler(this.buttonDodaj_Click);
+            // 
+            // accidentBindingSource1
+            // 
+            this.accidentBindingSource1.DataSource = typeof(Statystyki_OSP.Dane.Accident);
+            // 
             // AccidentListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,8 +213,9 @@
             this.Controls.Add(this.buttonEdytuj);
             this.Controls.Add(this.buttonDodaj);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AccidentListForm";
-            this.Text = "AccidentListForm";
+            this.Text = "Lista wyjazdów";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accidentBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accidentBindingSource1)).EndInit();

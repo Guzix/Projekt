@@ -27,17 +27,7 @@ namespace Statystyki_OSP
             InitializeComponent();
             this.accidentBindingSource.DataSource = data;
         }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void buttonZapisz_Click(object sender, EventArgs e)
         {
             try
@@ -110,7 +100,7 @@ namespace Statystyki_OSP
             {
                 if(data.VehicleData != null)
                 {
-                    this.comboBox1.SelectedValue = data.VehicleData.VehicleId;
+                    this.comboBoxPojazd.SelectedValue = data.VehicleData.VehicleId;
                 }
                 if(data.FiremanDataDowodca !=null)
                 {
@@ -150,9 +140,5 @@ namespace Statystyki_OSP
 
         }
 
-        private void comboBoxPojazd_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

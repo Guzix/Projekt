@@ -29,9 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FiremanListForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.firemanBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.imieDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nazwiskoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataUrodzeniaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.badaniaWazneDoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,6 +40,7 @@
             this.kursPilarzaDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.kPPDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.prawoJazdyCDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.firemanBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.buttonDodaj = new System.Windows.Forms.Button();
             this.buttonEdytuj = new System.Windows.Forms.Button();
             this.buttonOdswiez = new System.Windows.Forms.Button();
@@ -56,7 +56,6 @@
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.imieDataGridViewTextBoxColumn,
             this.nazwiskoDataGridViewTextBoxColumn,
             this.dataUrodzeniaDataGridViewTextBoxColumn,
             this.badaniaWazneDoDataGridViewTextBoxColumn,
@@ -72,18 +71,6 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(933, 403);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // firemanBindingSource
-            // 
-            this.firemanBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
-            // 
-            // imieDataGridViewTextBoxColumn
-            // 
-            this.imieDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.imieDataGridViewTextBoxColumn.DataPropertyName = "Imie";
-            this.imieDataGridViewTextBoxColumn.HeaderText = "Imie";
-            this.imieDataGridViewTextBoxColumn.Name = "imieDataGridViewTextBoxColumn";
-            this.imieDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // nazwiskoDataGridViewTextBoxColumn
             // 
@@ -157,6 +144,10 @@
             this.prawoJazdyCDataGridViewCheckBoxColumn.Name = "prawoJazdyCDataGridViewCheckBoxColumn";
             this.prawoJazdyCDataGridViewCheckBoxColumn.ReadOnly = true;
             // 
+            // firemanBindingSource
+            // 
+            this.firemanBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
+            // 
             // buttonDodaj
             // 
             this.buttonDodaj.Location = new System.Drawing.Point(12, 409);
@@ -207,8 +198,9 @@
             this.Controls.Add(this.buttonEdytuj);
             this.Controls.Add(this.buttonDodaj);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FiremanListForm";
-            this.Text = "FiremanListForm";
+            this.Text = "Lista strażaków";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -219,7 +211,6 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource firemanBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn imieDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nazwiskoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataUrodzeniaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn badaniaWazneDoDataGridViewTextBoxColumn;

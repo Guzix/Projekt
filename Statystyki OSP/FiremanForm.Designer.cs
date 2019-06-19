@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FiremanForm));
             this.buttonZapisz = new System.Windows.Forms.Button();
             this.buttonZamknij = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.firemanBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -49,7 +51,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.firemanBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,6 +81,10 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(200, 20);
             this.textBox2.TabIndex = 3;
+            // 
+            // firemanBindingSource
+            // 
+            this.firemanBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
             // 
             // dateTimePicker1
             // 
@@ -238,10 +243,6 @@
             this.label10.TabIndex = 18;
             this.label10.Text = "Prawo jazdy kat. C";
             // 
-            // firemanBindingSource
-            // 
-            this.firemanBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Fireman);
-            // 
             // FiremanForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -267,6 +268,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.buttonZamknij);
             this.Controls.Add(this.buttonZapisz);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FiremanForm";
             this.Text = "Dodawanie strażaka";
             ((System.ComponentModel.ISupportInitialize)(this.firemanBindingSource)).EndInit();

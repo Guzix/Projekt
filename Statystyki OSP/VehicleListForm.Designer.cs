@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VehicleListForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.vehicleBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.markaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.modelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.iloscMiejscDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vehicleBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.buttonDodaj = new System.Windows.Forms.Button();
             this.buttonEdytuj = new System.Windows.Forms.Button();
             this.buttonOdswiez = new System.Windows.Forms.Button();
@@ -59,10 +60,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(800, 393);
             this.dataGridView1.TabIndex = 0;
             // 
-            // vehicleBindingSource
-            // 
-            this.vehicleBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Vehicle);
-            // 
             // markaDataGridViewTextBoxColumn
             // 
             this.markaDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -85,6 +82,10 @@
             this.iloscMiejscDataGridViewTextBoxColumn.HeaderText = "Ilosc Miejsc";
             this.iloscMiejscDataGridViewTextBoxColumn.Name = "iloscMiejscDataGridViewTextBoxColumn";
             this.iloscMiejscDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // vehicleBindingSource
+            // 
+            this.vehicleBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Vehicle);
             // 
             // buttonDodaj
             // 
@@ -136,8 +137,9 @@
             this.Controls.Add(this.buttonEdytuj);
             this.Controls.Add(this.buttonDodaj);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VehicleListForm";
-            this.Text = "VehicleListForm";
+            this.Text = "Lista pojazdów";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vehicleBindingSource)).EndInit();
             this.ResumeLayout(false);

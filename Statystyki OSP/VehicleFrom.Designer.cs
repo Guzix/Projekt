@@ -29,17 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VehicleFrom));
             this.buttonZapisz = new System.Windows.Forms.Button();
             this.buttonZamknij = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.vehicleBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.vehicleBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vehicleBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonZapisz
@@ -69,6 +70,10 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(301, 20);
             this.textBox1.TabIndex = 2;
+            // 
+            // vehicleBindingSource
+            // 
+            this.vehicleBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Vehicle);
             // 
             // textBox2
             // 
@@ -113,10 +118,6 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Liczba miejsc";
             // 
-            // vehicleBindingSource
-            // 
-            this.vehicleBindingSource.DataSource = typeof(Statystyki_OSP.Dane.Vehicle);
-            // 
             // VehicleFrom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,11 +131,12 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonZamknij);
             this.Controls.Add(this.buttonZapisz);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VehicleFrom";
             this.Text = "Dodawanie pojazdu";
             this.Load += new System.EventHandler(this.VehicleFrom_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vehicleBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

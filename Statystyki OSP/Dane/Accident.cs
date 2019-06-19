@@ -8,10 +8,13 @@ using System.Threading.Tasks;
 
 namespace Statystyki_OSP.Dane
 {
-    
+
+
+  
     [Table("Wyjazd")]
     public class Accident
     {
+
         int accidentId = 0;
         string opis = "";
         DateTime dataWyjazdu = DateTime.Now;
